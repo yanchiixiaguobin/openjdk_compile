@@ -53,7 +53,7 @@ sudo xcode-select --switch /YourPATH/Xcode.app/Contents/Developer
 ```shell
 make images
 ```  
-等待大约10-20分钟, 编译过程无error, 则编译成功。在openjdk12_path/build/macosx-x86_64-server-slowdebug/images目录中, jdk就是被编译出来的openJDK12,可将JAVA_HOME指向该路径,并执行
+等待10-20分钟, 编译过程无error, 则编译成功。在openjdk12_path/build/macosx-x86_64-server-slowdebug/images目录中, jdk就是被编译出来的openJDK12,可将JAVA_HOME指向该路径,并执行
 ```shell
 java -version
 ```  
