@@ -4,7 +4,7 @@
 ### 1.bootopenJDK
 编译一个版本的openJDK,需要一个bootopenJDK,一般选择编译前一个版本的openJDK,在[openJDK](https://adoptopenjdk.net/archive.html)中选择平台相关的二进制包进行下载。本次在mac平台编译，并且编译的是openJDK12,故选择的是mac平台64位的openJDK11。
 ### 2.Xcode
-此处编译openJDK借助Xcode提供的clang编译器,需要安装clang。clang的版本选择为10.2(匹配osx10.14.6),在[苹果官网Xcode](https://developer.apple.com/xcode/)下载, 如果没有appid，则注册一个。
+此处编译openJDK借助Xcode提供的clang编译器,需要安装Xcode。Xcode的版本为10.2(匹配osx10.14.6),在[苹果官网Xcode](https://developer.apple.com/xcode/)下载, 如果没有appid，则注册一个。
 ### 3.openJDK12源码
 > 下载源码有两种方式
   - 使用hg下载  
